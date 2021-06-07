@@ -1,0 +1,31 @@
+body{
+    background-image: url('camila2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}  
+#buttons{
+    margin-top: 30%;
+    padding-left: 25%;
+}
+.btn{
+    background-color: rgb(251, 30, 222, 0.6);
+    padding: 30px 85px 30px 85px;
+    margin-right: 2%;
+    border-radius: 15px 0px 15px 0px;
+    border-color: rgb(251, 30, 222);
+    color: rgb(249, 177, 252);
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgba(30, 107, 251, 0.6);
+    transition: 500ms;
+    color:rgb(176, 236, 246);
+    cursor: pointer;
+}
+@media(max-width:1500px){
+    .btn{
+        margin-top:15px;
+    }
+}
